@@ -1,14 +1,14 @@
 .form {
-    display:inline-block;
+    display: inline-block;
     width: 100%;
 }
     .form-row {
         display:inline-block;
         width: 100%;
-        margin-bottom:30px;
+        margin-bottom: 30px;
     }
         .form-row:last-of-type {
-            margin-bottom:0;
+            margin-bottom: 0;
         }
         .label {
             display:inline-block;
@@ -21,30 +21,19 @@
         .input {
             display:inline-block;
             width: 100%;
-            font-size: 20px;
-            line-height: 25px;
-        }
-        .btn {
-            display:inline-block;
-            padding: 10px;
-            padding-left: 40px;
-            padding-right: 40px;
-            line-height: 20px;
             font-size: 18px;
-            border-radius: 20px;
-            background-color:#0069BA;
-            color:#fff;
+            line-height: 25px;
         }
         .form-row > .text {
             display: inline-block;
-            padding:10px;
-            line-height:20px;
-            font-size:18px;
+            padding: 10px;
+            line-height: 20px;
+            font-size: 18px;
         }
         .form-row > .link {
             display: inline-block;
-            padding:10px;
-            line-height:20px;
-            font-size:18px;
+            padding: 10px;
+            line-height: 20px;
+            font-size: 18px;
             color:#0069BA
         }
