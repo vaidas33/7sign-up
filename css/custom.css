@@ -4,7 +4,6 @@ body {
     .container {
         display: inline-block;
         width: 800px;
-        background-color:white;
         margin-top:100px;
         margin-left: calc((100% - 800px) / 2);
     }
@@ -12,14 +11,22 @@ body {
             display:inline-block;
             width:40%;
             float:left;
+            padding: 40px;
+            padding-bottom: 20px;
             margin-top:20px;
-            background-color: aqua;
+            background-color:#0069BA;
+            color: #fff;
         }
             .page-title {
+                display: inline-block;
+                width: 100%;
             }
             .bottom-links {
+                display: inline-block;
+                width: 100%;
             }
                 .bottom-links > .link {
+                    color:#fff;
                 }
                 .bottom-links > .text {
                 }
@@ -33,17 +40,3 @@ body {
         }
             .close {
             }
-            .form {
-            }
-                .form-row {
-                }
-                    .label {
-                    }
-                    .input {
-                    }
-                    .btn {
-                    }
-                    .form-row > .text {
-                    }
-                    .form-row > .link {
-                    }
