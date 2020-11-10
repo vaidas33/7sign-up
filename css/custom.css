@@ -1,5 +1,7 @@
 body {
     background-color: #4BB3C9;
+    background-image: linear-gradient(to bottom, green , yellow);
+    background-attachment: fixed;
 }
     .container {
         display: inline-block;
@@ -15,6 +17,7 @@ body {
             padding-bottom: 20px;
             background-color:#0069BA;
             background-image: url(../img/kalnas.jpg);
+            background-size: cover;
             color: #fff;
             position: absolute;
             top: 30px;
