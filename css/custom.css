@@ -1,0 +1,49 @@
+body {
+    background-color: #02ACC9;
+}
+    .container {
+        display: inline-block;
+        width: 800px;
+        background-color:white;
+        margin-top:100px;
+        margin-left: calc((100% - 800px) / 2);
+    }
+        .left-column {
+            display:inline-block;
+            width:40%;
+            float:left;
+            margin-top:20px;
+            background-color: aqua;
+        }
+            .page-title {
+            }
+            .bottom-links {
+            }
+                .bottom-links > .link {
+                }
+                .bottom-links > .text {
+                }
+        .right-column {
+            display:inline-block;
+            /* width: calc(60% - 120px); */
+            width:60%;
+            float:left;
+            padding:60px;
+            background-color: blueviolet;
+        }
+            .close {
+            }
+            .form {
+            }
+                .form-row {
+                }
+                    .label {
+                    }
+                    .input {
+                    }
+                    .btn {
+                    }
+                    .form-row > .text {
+                    }
+                    .form-row > .link {
+                    }
