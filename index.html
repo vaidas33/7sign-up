@@ -4,40 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
+    <!-- reset -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- components -->
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <!-- custom -->
+    <link rel="stylesheet" href="./css/custom.css">
+
 </head>
 <body>
-    <main>
-        <div>
-            <h1>Sign up</h1>
-            <footer>
-                <a href="#">Privacy policy</a>
-                <span>&amp;</span>
-                <a href="#">terms of service</a>
+    <div class="background"></div>
+    <main class="container">
+        <div class="left-column">
+            <h1 class="page-title">Sign up</h1>
+            <footer class="bottom-links">
+                <a class="link" href="#">Privacy policy</a>
+                <span class="text">&amp;</span>
+                <a class="link" href="#">terms of service</a>
             </footer>
         </div>
-        <div>
-            <div>X</div>
-            <form>
-                <div>
-                    <label for="username">Username</label>
-                    <input id="username" type="text" placeholder="Username">
+        <div class="right-column">
+            <div class="close">X</div>
+            <form class="form">
+                <div class="form-row">
+                    <label class="label" for="username">Username</label>
+                    <input class="input" id="username" type="text" placeholder="Username">
                 </div>
-                <div>
-                    <label for="email">E-mail</label>
-                    <input id="email" type="email" placeholder="Email">
+                <div class="form-row">
+                    <label class="label" for="email">E-mail</label>
+                    <input class="input" id="email" type="email" placeholder="Email">
                 </div>
-                <div>
-                    <label for="pass">Password</label>
-                    <input id="pass" type="password" placeholder="password">
+                <div class="form-row">
+                    <label class="label" for="pass">Password</label>
+                    <input class="input" id="pass" type="password" placeholder="password">
                 </div>
-                <div>
-                    <label for="repass">Repeat password</label>
-                    <input id="repass" type="password" placeholder="password">
+                <div class="form-row">
+                    <label class="label" for="repass">Repeat password</label>
+                    <input class="input" id="repass" type="password" placeholder="password">
                 </div>
-                <div>
-                    <div>Get started</div>
-                    <span>or</span>
-                    <a href="#">Sign in</a>
+                <div class="form-row">
+                    <div class="btn">Get started</div>
+                    <span class="text">or</span>
+                    <a class="link" href="#">Sign in</a>
                 </div>
             </form>
         </div>
